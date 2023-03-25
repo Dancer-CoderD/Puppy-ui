@@ -1,0 +1,28 @@
+{
+  "name": "puppy-ui",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "puppy-ui",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "Dancer-CoderD",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dancer-CoderD/puppy-ui"
+  },
+  "dependencies": {
+    "@puppy-ui/utils": "^1.0.0"
+  }
+}
